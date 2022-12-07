@@ -1,34 +1,140 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Peworld (Frontend)
+
+<!-- Logo -->
+<p align="center">
+
+  <h3 align="center">Peworld</h3>
+  <p align="center">
+    <image align="center" width="100" height="100" src='./public/Logo1.png' />
+  </p>
+
+  <p align="center">
+    <br />
+    <a href="https://github.com/reijiren/Blanja-Application/tree/main/backend"><strong>Explore Backend docs »</strong></a>
+    <br />
+  </p>
+</p>
+<!-- Table of Contents -->
+## Table of Contents
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#requirements">Requirements</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#screenshoots">Screenshoots</a></li>
+    <li><a href="#related-project">Related Projects</a></li>
+  </ol>
+</details>
+
+<!-- About The Project -->
+
+## About The Project
+
+Peworld is a LinkedIn-like web application where job seekers and recruiters meet.
+In Peworld, as a job seeker you just have to make an account and display your previous portfolios and/or job experiences in your profile. While the recruiter will be able to look after each job seeker’s profile and send a job/project offering to those in their favor.
+
+### Built With
+
+This app was built with some technologies below:
+
+- [JavaScript](https://www.javascript.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Next.js](https://nextjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Axios](https://axios-http.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Getting Started -->
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
+This is an example of how to list things you need to use the software and how to install them.
+
+- [Node.js](https://nodejs.org/en/download/)
+- [Next.js](https://nextjs.org/learn/basics/create-nextjs-app)
+
+### Installation
+
+- Clone the repository
+
+```
+git clone https://github.com/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Go to repository folder
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+cd peworld-frontend
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Install Module
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm install / npm i
+```
 
-## Learn More
+- Connect with database
+- <a href="#setup-env-example">Setup .env</a>
+- Type ` npm run dev` To Start Development
+- Type ` npm run start` To Start Production
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Setup .env example
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Create .env file in your root project folder.
 
-## Deploy on Vercel
+```env
+# app
+NEXT_PUBLIC_BACKEND_URL = [API_URL]
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- Contributing -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b your-branch`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin your-branch`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Screenshoots -->
+
+## Screenshoots
+
+<!-- Related Projects -->
+
+## Related Project
+
+:rocket: [`Peworld (Backend)`](https://github.com/brndnwjy/peworld-api)
+
+<!-- :rocket: [`Mamarecipe Web Service`](https://dove-chat.herokuapp.com/) -->
+
+<!-- :rocket: [`Mamarecipe App Demo`](https://dove-chat-fe.vercel.app/login) -->
+
+<p align="right">(<a href="#top">back to top</a>)</p>
