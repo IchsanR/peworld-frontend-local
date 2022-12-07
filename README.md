@@ -10,11 +10,13 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/reijiren/Blanja-Application/tree/main/backend"><strong>Explore Backend docs »</strong></a>
+    <a href="https://github.com/IchsanR/peworld-backend"><strong>Explore Backend docs »</strong></a>
     <br />
   </p>
 </p>
+
 <!-- Table of Contents -->
+
 ## Table of Contents
 
 <details>
@@ -76,7 +78,7 @@ This is an example of how to list things you need to use the software and how to
 - Clone the repository
 
 ```
-git clone https://github.com/
+git clone https://github.com/IchsanR/peworld-frontend.git
 ```
 
 - Go to repository folder
@@ -131,7 +133,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Related Project
 
-:rocket: [`Peworld (Backend)`](https://github.com/brndnwjy/peworld-api)
+:rocket: [`Peworld (Backend)`](https://github.com/IchsanR/peworld-backend)
 
 <!-- :rocket: [`Mamarecipe Web Service`](https://dove-chat.herokuapp.com/) -->
 
